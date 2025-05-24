@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Toggle Buttons -->
+    <div class="top-bar">
+        <div class="nav-toggle" onclick="toggleNav()">
+            <span id="toggleIcon">&#9776;</span>
+        </div>
+        <div class="dark-toggle" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+    <!-- Aside Nav -->
+    <div class="aside" id="aside">
+        <div class="logo">
+            <img src="images/Logo.jpg" alt="Logo" />
+        </div>
+        <ul class="nav">
+            <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#service"><i class="fa fa-list"></i> Services</a></li>
+            <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            <li><a href="#user"><i class="fa-regular fa-user"></i> User</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Page Sections -->
+    <main id="main">
+        <section id="home">Home Section</section>
+        <section id="about">About Section</section>
+        <section id="service">Services Section</section>
+        <section id="contact">Contact Section</section>
+        <section id="user">User</section>
+
+        <section class="footer" id="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-flex">
+                        <div class="row">
+                            <div class="diamond"></div>
+                        </div>
+                        <div class="row">
+                            <div class="square"></div>
+                            <div class="spacer"></div>
+                            <div class="square"></div>
+                        </div>
+                        <div class="row">
+                            <div class="diamond"></div>
+                            <div class="diamond"></div>
+                            <div class="diamond"></div>
+                        </div>
+                        <div class="row">
+                            <div class="square"></div>
+                            <div class="spacer"></div>
+                            <div class="square"></div>
+                        </div>
+                        <div class="row">
+                            <div class="diamond"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-columns">
+                    <div class="footer-brand">
+                        <h2>ClosetNow</h2>
+                        <div class="footer-links">
+                            <div class="footer-item">
+                                <h3>About Us</h3>
+                                <a href="#">Mission</a>
+                                <a href="#">Team</a>
+                                <a href="#">Newsletter</a>
+                            </div>
+                            <div class="footer-item">
+                                <h3>Support</h3>
+                                <a href="#">Contact</a>
+                                <a href="#">Refund Policy</a>
+                                <a href="#">FAQ’s</a>
+                            </div>
+                            <div class="footer-item">
+                                <h3>Social</h3>
+                                <a href="#">Instagram</a>
+                                <a href="#">LinkedIn</a>
+                                <a href="#">YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © ClosetNow</p>
+                <a href="#">Terms of Service</a>
+                <button id="backToTop">Back to top ↑</button>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
