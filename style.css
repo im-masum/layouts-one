@@ -21,8 +21,8 @@ body.dark {
     display: flex;
     justify-content: space-between;
     padding: 15px 30px;
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
     position: fixed;
     width: 100%;
     z-index: 1001;
@@ -35,7 +35,8 @@ body.dark {
     top: 30px;
     width: 200px;
     height: 100vh;
-    background: #222;
+    background: #fff;
+    color: #333;
     padding-top: 60px;
     transition: transform 0.3s ease;
     z-index: 1000;
@@ -72,7 +73,7 @@ body.dark {
 }
 
 .nav li a {
-    color: #ccc;
+    color: #333;
     text-decoration: none;
     font-size: 16px;
     display: inline-block;
@@ -100,6 +101,11 @@ body.dark {
     cursor: pointer;
     font-size: 24px;
     color: #fff;
+    background: #444;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
 }
 
 /* Main content */
