@@ -99,15 +99,20 @@ body.dark {
 /* Toggle buttons */
 .nav-toggle, .dark-toggle {
     cursor: pointer;
-    font-size: 24px;
-    color: #fff;
-    background: #444;
+    font-size: 32px;
+    color: #333;
+    background-color: #fff;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    
-}
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+}
+.nav-toggle:hover, .dark-toggle:hover {
+    background-color: #f0f0f0;
+    color: #000;
+ }
 /* Main content */
 main {
     margin-left: 200px;
